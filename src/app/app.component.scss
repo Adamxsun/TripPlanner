@@ -1,0 +1,64 @@
+/* app.component.scss */
+/* by adamsun */
+$primary-color: #ff7900;
+$secondary-color: #343a3f;
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Comic Sans MS", cursive;
+  background-color: $secondary-color;
+}
+
+.main-content {
+  margin: 20px auto;
+  max-width: 800px;
+}
+.orange-heading {
+    color: $primary-color; 
+}
+.blue-heading {
+    color: blue; 
+}
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+p.weather-info {
+    font-size: 25px; 
+}
+
+h1 {
+  text-align: center;
+  background-color: $primary-color;
+  padding: 10px;
+  color: white;
+}
+
+button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: $primary-color;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  white-space: pre-line; 
+}
+
+footer p {
+  margin-bottom: 10px;
+}
